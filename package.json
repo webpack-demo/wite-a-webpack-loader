@@ -1,0 +1,14 @@
+{
+  "name": "write-a-webpack-loader",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "loader-utils": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
