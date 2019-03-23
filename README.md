@@ -1,6 +1,8 @@
 # write a webpack loader
 
-main.js：
+参考 [Writing a Loader](https://webpack.js.org/contribute/writing-a-loader/) | [中文](https://webpack.docschina.org/contribute/writing-a-loader/)
+
+**main.js：**
 
 ```js
 import mdString from './demo.md'
@@ -10,7 +12,7 @@ document.write(mdString)
 
 其实我们要做的是获取 md 文件的内容，并对内容进行一些转换（转为大写，单词替换）
 
-webpack.config.js 配置：
+**webpack.config.js 配置：**
 
 ```js
 module: {
