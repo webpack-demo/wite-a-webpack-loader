@@ -1,3 +1,3 @@
-import mdString from './demo.md'
+import src from './0.png'
 
-document.write(mdString)
+document.body.insertAdjacentHTML('beforeend', `<img src=${src}>`)
