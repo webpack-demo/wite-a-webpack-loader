@@ -41,3 +41,9 @@ loader 是从下到上（从右往左）执行的，第一个执行的 loader �
 所以先会将 demo.md 的内容当作参数放入 touppercase-loader 进行转换（转为大写），然后 replace-loader 会将上一步转换结果当作参数传入（单词替换），最后导出一个函数
 
 这样就实现了一个最简单的入门 loader，[raw-loader](https://github.com/webpack-contrib/raw-loader) 可以作为生产中的入门 loader 看看
+
+---
+
+loader 除了可以接收源文件内容作为参数，也可以是源文件 buffer 值，需要设置 ["Raw" Loader](https://webpack.js.org/api/loaders/#raw-loader)
+
+移步 [use-raw](https://github.com/webpack-demo/wite-a-webpack-loader/tree/use-raw) 分支，简单实现一个 url-loader
